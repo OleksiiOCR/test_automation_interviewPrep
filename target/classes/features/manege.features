@@ -1,0 +1,8 @@
+Feature: AdminLogin
+  Scenario: Login as a Manager and valedate new user fields
+    Given I navigate to Interview Prep
+    Then Click on Manage Access
+   Then Verify that  first name, last name, and email input boxes and role and batch dropdown options.
+#    And I enter testuser123 in the Password input box
+#    And I click Login button
+    Then I should see Interview Prep homepage
